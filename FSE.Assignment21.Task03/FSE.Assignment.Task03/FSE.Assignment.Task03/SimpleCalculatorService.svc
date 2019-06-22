@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="FSE.Assignment.Task03.SimpleCalculatorService" CodeBehind="SimpleCalculatorService.svc.cs" %>

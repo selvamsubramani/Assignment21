@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSE.Assignment.Task03", "FSE.Assignment.Task03\FSE.Assignment.Task03.csproj", "{7690318F-00E3-4305-AE70-D5CE6FE2C72A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSE.Assignment21.Client", "FSE.Assignment21.Client\FSE.Assignment21.Client.csproj", "{D924A768-BD40-4479-B021-8F994C118FED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7690318F-00E3-4305-AE70-D5CE6FE2C72A} = {7690318F-00E3-4305-AE70-D5CE6FE2C72A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7690318F-00E3-4305-AE70-D5CE6FE2C72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7690318F-00E3-4305-AE70-D5CE6FE2C72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7690318F-00E3-4305-AE70-D5CE6FE2C72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7690318F-00E3-4305-AE70-D5CE6FE2C72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D924A768-BD40-4479-B021-8F994C118FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D924A768-BD40-4479-B021-8F994C118FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D924A768-BD40-4479-B021-8F994C118FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D924A768-BD40-4479-B021-8F994C118FED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
