@@ -1,0 +1,24 @@
+﻿@model FSE.Assignment21.MVCClient.Models.SelfHost
+@{
+    ViewBag.Title = "Self hosted service";
+}
+
+<h2>Self Hosted Service</h2>
+<div class="container">
+    <div class="form-horizontal">
+        @Html.ActionLink("Call Http", "GetService", "SelfHost", new { id = 1 }
+   , new { @class = "btn btn-primary col-md-2" })
+        @Html.ActionLink("Call Tcp", "GetService", "SelfHost", new { id = 2 }
+   , new { @class = "btn btn-primary col-md-2" })
+    </div>
+    @{
+        if (!string.IsNullOrEmpty(Model.Source))
+        {
+            <h2>@Model.Source</h2>
+            <hr />
+            <label>Say Hello : </label>@Html.DisplayFor(m => m.SayHello);
+            <br />
+                <label>Today Program :  </label>@Html.DisplayFor(m => m.TodayProgram);
+        };
+    }
+</div>

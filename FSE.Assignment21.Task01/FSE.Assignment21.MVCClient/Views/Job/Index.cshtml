@@ -1,0 +1,36 @@
+﻿@model IEnumerable<FSE.Assignment21.MVCClient.Models.Job>
+<h2>Job Search</h2>
+<hr />
+<div class="container">
+    <div>
+        @using (Html.BeginForm("GetJobsByRole", "Job"))
+        {
+            <div class="form-horizontal form-group form-inline col-md-7">
+                <input type="text" id="role" name="role" placeholder="Enter the role" class="form-control col-md-3" required />
+                <input type="submit" value="Get jobs by role" class="btn btn-primary col-md-2" />
+                @Html.ActionLink("Get all jobs", "GetJobs", "Job", new { @class = "btn btn-primary col-md-2" })
+            </div>
+        }
+    </div>
+</div>d
+@{    if (Model.Any())
+    {
+        <table class="table">
+            <tr>
+                <th> @Html.DisplayNameFor(model => model.Role) </th>
+                <th> @Html.DisplayNameFor(model => model.Description) </th>
+                <th> @Html.DisplayNameFor(model => model.Experience) </th>
+                <th> @Html.DisplayNameFor(model => model.Venue) </th>
+            </tr>
+            @foreach (var item in Model)
+                {
+                <tr>
+                    <td> @Html.DisplayFor(modelItem => item.Role) </td>
+                    <td> @Html.DisplayFor(modelItem => item.Description) </td>
+                    <td> @Html.DisplayFor(modelItem => item.Experience) </td>
+                    <td> @Html.DisplayFor(modelItem => item.Venue) </td>
+                </tr>
+            }
+        </table>
+    }
+}

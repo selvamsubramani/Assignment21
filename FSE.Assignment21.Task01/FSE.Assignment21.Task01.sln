@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSE.Assignment21.Task01", "FSE.Assignment21.Task01\FSE.Assignment21.Task01.csproj", "{A5490AAD-57AF-4442-B519-C902E7C80E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSE.Assignment21.MVCClient", "FSE.Assignment21.MVCClient\FSE.Assignment21.MVCClient.csproj", "{E2737CEA-7D32-4E06-A7A1-3FF6F90EE015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5490AAD-57AF-4442-B519-C902E7C80E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5490AAD-57AF-4442-B519-C902E7C80E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5490AAD-57AF-4442-B519-C902E7C80E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5490AAD-57AF-4442-B519-C902E7C80E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2737CEA-7D32-4E06-A7A1-3FF6F90EE015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2737CEA-7D32-4E06-A7A1-3FF6F90EE015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2737CEA-7D32-4E06-A7A1-3FF6F90EE015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2737CEA-7D32-4E06-A7A1-3FF6F90EE015}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
